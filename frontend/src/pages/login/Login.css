@@ -1,0 +1,61 @@
+:root {
+  --main-color: #81ecec;
+}
+.auth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--main-color);
+  flex-direction: column;
+}
+.auth h2 {
+  font-size: 40px;
+  color: teal;
+}
+.auth form {
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f6fa;
+  padding: 50px;
+  width: 250px;
+  gap: 20px;
+}
+.auth form input {
+  border: none;
+  border-bottom: 1px solid gray;
+  padding: 5px;
+  background-color: transparent;
+  outline: 0;
+}
+.auth form button {
+  padding: 15px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  background-color: teal;
+  transition: 0.3s;
+}
+.auth form button:hover {
+  background-color: rgb(6, 100, 100);
+}
+.auth form span {
+  text-align: center;
+}
+.auth form .link {
+  background-color: teal;
+  padding: 5px;
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s;
+  margin-left: 5px;
+  border-radius: 6px;
+}
+.auth form p {
+  text-align: center;
+  color: #be0606;
+}
+.auth form .link:hover {
+  background-color: rgb(6, 100, 100);
+}

@@ -1,0 +1,61 @@
+:root {
+  --main-color: #81ecec;
+}
+.reg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--main-color);
+  flex-direction: column;
+}
+.reg h2 {
+  font-size: 40px;
+  color: teal;
+}
+.reg form {
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f6fa;
+  padding: 50px;
+  width: 250px;
+  gap: 20px;
+}
+.reg form input {
+  border: none;
+  border-bottom: 1px solid gray;
+  padding: 5px;
+  background-color: transparent;
+  outline: 0;
+}
+.reg form button {
+  padding: 15px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  background-color: teal;
+  transition: 0.3s;
+}
+.reg form span {
+  text-align: center;
+}
+.reg form button:hover {
+  background-color: rgb(6, 100, 100);
+}
+.reg form .link {
+  background-color: teal;
+  padding: 5px;
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s;
+  margin-left: 5px;
+  border-radius: 6px;
+}
+.reg form p {
+  text-align: center;
+  color: #be0606;
+}
+.reg form .link:hover {
+  background-color: rgb(6, 100, 100);
+}
